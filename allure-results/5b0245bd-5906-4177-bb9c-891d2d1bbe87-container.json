@@ -1,0 +1,12 @@
+{
+  "uuid": "5b0245bd-5906-4177-bb9c-891d2d1bbe87",
+  "name": "API.AutomationPrograms",
+  "children": [
+    "99e161f1-2edf-418c-9fb6-9b26216d14b3",
+    "10b8b119-cf40-4f85-9e7b-d517e88f9329"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1739776451840,
+  "stop": 1739776458091
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "c1dd53a7-d7d6-424e-b4ad-ac2afe5f50d3",
+  "name": "RestassuredBasics.APITesting006_Get",
+  "children": [
+    "99e161f1-2edf-418c-9fb6-9b26216d14b3",
+    "10b8b119-cf40-4f85-9e7b-d517e88f9329"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1739776451845,
+  "stop": 1739776458116
+}
