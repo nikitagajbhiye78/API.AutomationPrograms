@@ -14,8 +14,7 @@ public class APITesting012 {
     public void test_patchmethod(){
         // Baseuri- https://restful-booker.herokuapp.com
         // BasePath - /booking
-        // body- {
-        //    "firstname" : "John",
+        // body- {"firstname" : "John",
         //    "lastname" : "Snow"}
         // Cookies = token
 
