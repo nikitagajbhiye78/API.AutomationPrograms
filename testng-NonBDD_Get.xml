@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Nikita/IdeaProjects/API.AutomationPrograms">
         <classes>
-            <class name="RestassuredBasics.APITest007_Get_NonBDDStyle">
+            <class name="RestAssured_Get.APITest007_Get_NonBDDStyle">
                 <methods>
                     <include name="test_get_positive"/>
                     <include name="test_get_negative"/>

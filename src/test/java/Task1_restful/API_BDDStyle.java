@@ -1,4 +1,4 @@
-package Tasks.Task1_restful;
+package Task1_restful;
 
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;

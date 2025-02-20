@@ -1,4 +1,4 @@
-package RestassuredBasics;
+package RestAssured_Get;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
