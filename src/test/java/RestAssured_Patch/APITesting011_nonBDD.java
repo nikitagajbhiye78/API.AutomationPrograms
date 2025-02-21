@@ -6,6 +6,8 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.hamcrest.Matcher;
+import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 public class APITesting011_nonBDD {
@@ -34,6 +36,7 @@ public class APITesting011_nonBDD {
 
         Response response = RS.when().patch();
         ValidatableResponse VR = response.then().log().all();
+        VR.body("firstname", Matchers.equalTo("Ronny"));
 
     }
 }
