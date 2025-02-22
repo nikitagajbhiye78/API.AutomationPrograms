@@ -6,7 +6,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class APITesting024_RestAssured_Payload_POJO {
+public class APITesting025_RestAssured_Payload_POJO {
     @Test
     public void demo(){
         Booking booking = new Booking();
@@ -19,7 +19,7 @@ public class APITesting024_RestAssured_Payload_POJO {
         BookingDates bookingdates = new BookingDates();
         bookingdates.setCheckin("2018-01-01");
         bookingdates.setCheckin("2019-01-01");
-        booking.setBookingdates(String.valueOf(bookingdates));
+       // booking.setBookingdates(bookingdates);
        // this correct command not above string.valueOf-- booking.setBookingdates(bookingdates);
 
         System.out.println(booking);
